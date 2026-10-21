@@ -344,6 +344,9 @@ The README of StaticCompiler.jl contains a more [detailed guide](https://github.
 For more advanced compilation workflows, [JuliaC.jl](https://github.com/JuliaLang/JuliaC.jl) provides tools for compiling and bundling Julia binaries with trimmed dependencies, particularly useful for creating minimal deployments.
 {% </advanced> %}
 
+Compilation is only one part of running Julia in production.
+See [Deploying your code](/deployment/) for containers, long-running services, and cloud deployments.
+
 ## Parallelism
 
 {% <tldr> %}Use `Threads` or OhMyThreads.jl on a single machine, `Distributed` or MPI.jl on a computing cluster. GPU-compatible code is easy to write and run.{% </tldr> %}

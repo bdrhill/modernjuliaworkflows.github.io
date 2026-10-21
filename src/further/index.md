@@ -40,6 +40,7 @@ title = "Going further"
 
 ## Videos
 
+* [Lessons in deploying Julia to production services](https://www.youtube.com/watch?v=myZAp6vSgQA) by Avik Sengupta at JuliaCon 2026
 * [The Unreasonable Effectiveness of Multiple Dispatch](https://www.youtube.com/live/kc9HwsxE1OY?feature=share) by Stefan Karpinski at JuliaCon 2019
 
 ## Lore

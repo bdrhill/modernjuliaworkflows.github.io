@@ -8,12 +8,14 @@
 {%- set writing = get_page(path="writing/index.md") %}
 {%- set sharing = get_page(path="sharing/index.md") %}
 {%- set optimizing = get_page(path="optimizing/index.md") %}
+{%- set deployment = get_page(path="deployment/index.md") %}
 {%- set further = get_page(path="further/index.md") %}
 {%- set entries = [
   {"label": "Home", "url": "/", "toc": home.toc},
   {"label": "Writing", "url": "/writing/", "toc": writing.toc},
   {"label": "Sharing", "url": "/sharing/", "toc": sharing.toc},
   {"label": "Optimizing", "url": "/optimizing/", "toc": optimizing.toc},
+  {"label": "Deploying", "url": "/deployment/", "toc": deployment.toc},
   {"label": "Going further", "url": "/further/", "toc": further.toc},
 ] %}
 <aside class="sidebar">

@@ -12,10 +12,11 @@
 {%- set writing = get_page(path="writing/index.md") %}
 {%- set sharing = get_page(path="sharing/index.md") %}
 {%- set optimizing = get_page(path="optimizing/index.md") %}
+{%- set deployment = get_page(path="deployment/index.md") %}
 {%- set further = get_page(path="further/index.md") %}
 <script>
   window.searchHeadings = [
-  {%- for e in [home, writing, sharing, optimizing, further] %}
+  {%- for e in [home, writing, sharing, optimizing, deployment, further] %}
   {%- for a in e.toc %}
   {%- for b in a.children %}
     { "page": {{ e.title | json_encode | safe }}, "title": {{ b.title | json_encode | safe }}, "url": {{ b.permalink | json_encode | safe }} },
